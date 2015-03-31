@@ -1,0 +1,66 @@
+/* --------------------------------
+ * GENERAL PAGE ELEMENTS
+ * --------------------------------*/
+
+/* headings
+ * --------------------------------*/
+
+// alias classes - don't extend
+.heading-type-01 {
+    @extend h1;
+}
+.heading-type-02 {
+    @extend h2;
+}
+.heading-type-03 {
+    @extend h3;
+}
+.heading-type-04 {
+    @extend h4;
+}
+.heading-type-05 {
+    @extend h5;
+}
+.heading-type-06 {
+    @extend h6;
+}
+// -------------------
+
+
+/* lists
+ * --------------------------------*/
+
+
+/* buttons
+ * --------------------------------*/
+
+/* form elements
+ * --------------------------------*/
+input, select, textarea, button {font-family:inherit;}
+
+
+
+/* --------------------------------
+ * LAYOUT
+ * --------------------------------*/
+
+
+
+
+/* --------------------------------
+ * BROWSE HAPPY PROMT
+ * --------------------------------*/
+.browsehappy {
+    width: 100%;
+    border-bottom: 1px solid #A29330;
+    background: #FDF2AB url(data:image/gif;base64,R0lGODlhEAAQAMZJAJMBAZkAAI0EA44EA58AAJ4BAZAFBJIFBJQFBJYFBK8AALQAALgAAJAMCLwAAH8SDcAAAMQAANEAANYAADExMYggFrsUFI0nHEBAQENDQ5IxIk1NTZg7KtcpKdwvL5xFMNwzM51GMVpaWltbW9s5Odo8PNlBQWhoaKxiRcaUaMyeb+aTk9Kod+ekpOWnp9eyfuSqquKrq+Gurty6hOHDiu/bmuHh4eXl5ejn5+ro6Onp6erq6u3q6uvr6+zs7PvvqPDs7O3t7e7u7vzxqu/v7/3yq/Dw8PHx8fLy8v///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////yH5BAEKAH8ALAAAAAAQABAAAAe5gEWCgzUfHzWDiYohBQUhipA0Ah0WAjSQiRwKMjIKHJiCMwMmNzcmAzOgGgsxFBQxCxqYLwYlOBgYOCUGL5AXDDA6Gxs6MAwXiiwHJDk7IyM7OSQHLINDFQ4uPj0nJz0+Lg4VQ4IqCCA8QT42Nj5BPCAIKkU/DRAtREJBGRlBQkQtIDT4kSKBByBG8okQ8c8IEA8JUjyIsALJkYRCGh5BsiLCgwASJogcSVKkhAAoABBYybLlSgAoAgEAOw==) no-repeat 1em 0.55em;
+    padding: 5px 36px 5px 40px;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000;
+    font-size: 12px;
+
+    strong {
+        font-family: Arial, Helvetica, sans-serif;
+    }
+}

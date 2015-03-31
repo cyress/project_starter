@@ -1,0 +1,11 @@
+.slick-list {
+
+    .slick-loading & {
+        background-image: url($slick-loader-path + 'ajax-loader.gif');
+    }
+}
+
+.slick-prev:before,
+.slick-next:before {
+    color: $oil;
+}
