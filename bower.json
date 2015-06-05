@@ -2,7 +2,7 @@
     "name": "project_starter",
     "description": "a good and solid starting point to start a new project",
     "dependencies": {
-        "foundation": "5.5.1",
-        "slick-carousel": "1.4.1"
+        "foundation": "5.5.2",
+        "slick-carousel": "1.5.5"
     }
 }
